@@ -68,7 +68,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Exercise3", "..\..\IIO13200
 		SlnRelativePath = "..\..\IIO13200\Exercise3\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Exercise4(1)", "..\Exercise4\", "{33FDEBB9-11C6-4F28-9E3C-488979E2B860}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Exercise4", "..\Exercise4\", "{33FDEBB9-11C6-4F28-9E3C-488979E2B860}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50537"
