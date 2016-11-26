@@ -10,7 +10,7 @@ using System.Web;
 /// </summary>
 public class DBDemoxOy
 {
-    public static DataTable GetDataSimple()
+    public static DataTable GetDataSimple() // SQLData.apsx
     {
         //DB-kerros
         //taulu
@@ -23,7 +23,7 @@ public class DBDemoxOy
         dt.Rows.Add("MN01", "Matt Nickerson");
         return dt;
     }
-    public static DataTable GetDataReal()
+    public static DataTable GetDataReal() // DemoxOy.aspx
     {
         //DBkerros, haetaan DemoxOy-tietokannasta taulun asiakas tietueet, metodi palauttaa DataTablen
         try
