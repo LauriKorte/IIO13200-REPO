@@ -14,8 +14,8 @@
         Valitse haluamasi päivä: <asp:Label ID="lbSelectedDate" runat="server" /><br />
         Valitun ja tämän päivän erotus: <asp:Label ID="lbDifference" runat="server" /><p />
 
-        <asp:Button ID="btnPrevious" runat="server" Text="< Previous" OnClick="btnPrevious_Click" Width="100"/>
-        <asp:Button ID="btnNext" runat="server" Text="Next >" OnClick="btnNext_Click" Width="100"/><p />
+        <asp:Button ID="btnPrevious" runat="server" Text="< Edellinen" OnClick="btnPrevious_Click" Width="100"/>
+        <asp:Button ID="btnNext" runat="server" Text="Seuraava >" OnClick="btnNext_Click" Width="100"/><p />
         <asp:Calendar ID="calendarDate" runat="server" OnSelectionChanged="calendarDate_SelectionChanged" AutoPostBack="true" />
     </div>
     </form>
